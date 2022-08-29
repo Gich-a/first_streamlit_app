@@ -4,7 +4,7 @@ import requests
 import snowflake.connector
 from urllib.error import URLError
 
-streamlit.title("View Our Fruit List - Add Your Favorites!")
+streamlit.title("My Mom's Healthy New Diner")
 
 streamlit.header('Breakfast Favorites')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
@@ -48,7 +48,7 @@ except URLError as e:
 
 #streamlit.stop()
 
-streamlit.header("The fruit load list contains:")
+streamlit.header("View Our Fruit List - Add Your Favorites!")
 #Snowflake-related functions
 def get_fruit_load_list():
    with my_cnx.cursor() as my_cur:
