@@ -73,4 +73,4 @@ if streamlit.button('Add a Fruit to the List'):
     streamlit.text(back_from_function)
 
 
- my_cnx.close()
+my_cnx.close()
